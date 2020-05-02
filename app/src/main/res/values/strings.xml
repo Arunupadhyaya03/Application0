@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">My Application0</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    //Navigation Drawer
+    <string name="menu_meterdetails">Meter Details</string>
+    <string name="menu_meterview">View Meter Details</string>
+    <string name="menu_feederdetails">Feeder Details</string>
+    <string name="menu_monthlyaccounting">Insert Monthly Accounting</string>
+    <string name="menu_report">Energy Accounting Report</string>
+    //
+
+    //Feeder Details String
+    <string name="menu_circleid">Circle id</string>
+    <string name="menu_feedernumber">Feeder Number</string>
+    <string name="menu_feedername">Feeder Name</string>
+    <string name="menu_typeconductor">Type of conductor</string>
+    <string name="menu_totallength">Total Length</string>
+    <string name="menu_noofdtrs">Numbers of DTRS</string>
+    <string name="menu_totalconsumers">Total Consumers</string>
+    <string name="menu_connectivity">Corresponding Feeder Connectivity</string>
+    <string name="feeder_title">Add New Feeders</string>
+    <string name="menu_meterfrag">Meter Number</string>
+    <string name="conn_name">Connection Name</string>
+    <string name="conn_no">Connection Number</string>
+    //
+
+    //Monthy Energy Data String
+    <string name="send">Sending End</string>
+    <string name="receive">Receiving End</string>
+    <string name="gd">GSS/DSS</string>
+    <string name="meterno">Meter Number</string>
+    <string name="meternew">New Meter Number</string>
+    <string name="mf">MF</string>
+    <string name="mfnew">New MF</string>
+    <string name="prreading">Present Reading</string>
+    <string name="prereading">Previous Reading</string>
+    //
+
+    //Spinner Meter Type
+    <string name="metertype_prompt">Meter Type</string>
+    <string-array name="metertype_array">
+        <item>Please Select..</item>
+        <item>Static</item>
+        <item>Electronic</item>
+        <item>Prepaid</item>
+        <item>Smart Meter</item>
+    </string-array>
+
+    //
+
+    //Spinner Accuracy
+    <string name="accuracy_prompt">Accuracy</string>
+    <string-array name="accuracy_array">
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>1</item>
+    </string-array>
+    //
+
+    //Spinner Status
+    <string name="status_prompt">Status</string>
+    <string-array name="status_array">
+        <item>Running</item>
+        <item>Stopped</item>
+        <item>Defective</item>
+    </string-array>
+    //
+
+    //Spinner Meter Feature
+    <string name="meterfeature_prompt">Meter Feature</string>
+    <string-array name="meterfeature_array">
+        <item>Please Select..</item>
+        <item>Incoming</item>
+        <item>Outgoing</item>
+    </string-array>
+    //
+
+    //Spinner Connection Type
+    <string name="conntype_prompt">Connection Type</string>
+    <string-array name="conn_array">
+        <item>Please Select..</item>
+        <item>Static</item>
+        <item>Electronic</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    //
+
+
+</resources>

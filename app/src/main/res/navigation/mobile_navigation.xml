@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication0.ui.meterdetails.MeterDetailsFragment"
+        android:label="@string/menu_meterdetails"
+        tools:layout="@layout/fragment_meterdetails" />
+
+    <fragment
+        android:id="@+id/meterv"
+        android:name="com.example.myapplication0.ui.meterdetails.MeterViewFragment"
+        android:label="@string/menu_meterview"
+        tools:layout="@layout/fragment_meter_view" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.myapplication0.ui.feederdetails.FeederDetailsFragment"
+        android:label="@string/menu_feederdetails"
+        tools:layout="@layout/fragment_feederdetails" />
+
+    <fragment
+        android:id="@+id/feederv"
+        android:name="com.example.myapplication0.ui.feederdetails.feederview"
+        android:label="@string/menu_feederdetails"
+        tools:layout="@layout/fragment_feederview" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.myapplication0.ui.slideshow.MonthlyaccountingFragment"
+        android:label="@string/menu_monthlyaccounting"
+        tools:layout="@layout/fragment_monthlyaccounting" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.myapplication0.ui.tools.ToolsFragment"
+        android:label="@string/menu_report"
+        tools:layout="@layout/fragment_tools" />
+
+
+</navigation>
